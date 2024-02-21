@@ -1,0 +1,39 @@
+
+
+h1, h2, h3, h4, h5, h6, h7, p, div, span, ul, li{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #222;
+}
+
+.title4{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+}
+.title5{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+}
+.outline2{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+.label2{
+  font-weight: 500;
+  font-size: 146x;
+  line-height: 140%;
+}
+.label3{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+}
+.body3{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}

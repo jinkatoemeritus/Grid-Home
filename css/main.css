@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #F8F8FA;
+}
+.contentWrapper{
+  /* margin-left: 230px; */
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+@media (min-width: 800px) {
+  .contentWrapper{
+    margin-left: 230px;
+  }
+}
+
+.contentInner{
+  /* background-color: white; */
+  width: 90%;
+  /* height: 500px; */
+  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  /* border: 1px solid #E5E5E5; */
+}
+/* ------ Section ------ */
+.section{
+  width: 100%;
+  margin-bottom: 28px;
+}
+.section h2{
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.section ul li h5{
+  color: #222;
+  font-size: 14px;
+  line-height: 160%;
+}
+.section ul li p{
+  color: #747474;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+/* ------ Hero Section ------ */
+.heroSection{
+  display: flex;
+  background-color: #009BDB;
+  border-radius: 8px;
+}
+.heroSection div{
+  padding: 40px;
+}
+.heroSection h2{
+  color: white;
+  font-size: 22px;
+  line-height: 130%;
+  font-weight: 500;
+}
+.heroSection p{
+  color: white;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* ------ Prepare Section ------ */
+
+.prepareSection ul{
+  border-radius: 8px;
+}
+.prepareSection ul li{
+  background-color: white;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 16px;
+}
+.prepareSection ul li:last-child{
+  border-bottom: none;
+}
+
+/* ------ Section ------ */
+
+.resizeSection ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.resizeSection ul li{
+  width: 100%;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+.withImageSection ul li img{
+  width: 120px;
+  height: 66px;
+}
+.withImageSection ul li{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+@media (min-width: 1000px) {
+   .resizeSection ul{
+    flex-direction: row;
+  }
+  .twoItemSection ul li{
+    width: 50%;
+  }
+  .threeItemSection ul li{
+    width: 33%;
+  }
+}
+
