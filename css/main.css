@@ -57,19 +57,34 @@ body {
   background-color: #009BDB;
   border-radius: 8px;
 }
-.heroSection div{
+.heroSection .contentSide{
   padding: 40px;
 }
-.heroSection h2{
+.heroSection .contentSide h2{
   color: white;
   font-size: 22px;
   line-height: 130%;
   font-weight: 500;
 }
-.heroSection p{
+.heroSection .contentSide p{
   color: white;
   font-size: 16px;
   line-height: 160%;
+}
+.heroSection .imageSide{
+  /* border: 2px solid blue;
+  width: 50%;
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.heroSection img{
+  display: none;
+}
+@media (min-width: 1000px) {
+  .heroSection img{
+    display: inline;
+  }
 }
 
 /* ------ Prepare Section ------ */
